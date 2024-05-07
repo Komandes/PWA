@@ -6,12 +6,6 @@ body {
     
   }
 
-  @media screen and (max-width: 767px) {
-    body {
-        background-position: right;
-    }
-}
-
 .opis {
     width: 50%;
     height: 20%;
@@ -35,7 +29,7 @@ body {
 }
 
 .picture-in {
-  
+  position: relative; 
   width: 50%;
   height: 20%;
   display: flex;
@@ -73,4 +67,20 @@ h1{
 .opis p {
   padding: 20px;
   margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+      background-position: center;
+  }
+
+  .picture-in {
+    flex-direction: row; /* Revert to horizontal layout */
+    align-items: center; /* Center items vertically */
+  }
+
+  .tekst {
+    margin-top: 20%; 
+    width: 70%; 
+
 }
