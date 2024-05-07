@@ -74,6 +74,10 @@ h1{
       background-position: center;
       font-size: 120%; 
   }
+  .opis {
+    width: 70%;
+    height: 30%;
+  }
 
   .picture-in {
     width: 100%;
